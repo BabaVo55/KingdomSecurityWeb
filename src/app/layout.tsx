@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
-import Image from "next/image";
-import Navbar from "./components/Navbar";
-import Menu from "./components/Menu";
-import Link from "next/link";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "Kingdom Security",
+  description: "Next.js Security Website",
+};
+
 
 export default function RootLayout({
   children,
@@ -11,19 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <div className="flex border border-red-700 h-screen w-screen">
-          {/* LEFT */}
-          <div className="w-[10%] border flex flex-col items-center m-2">
-            <Image src="/Large-logo-no-bg.png" alt="" width={200} height={200} />
-            <Navbar />
-          </div>
-          {/* RIGHT */}
-          <div className='border w-[90%] flex-col justify-between '>
-            <Menu />
+      <body className="">
             {children}
-          </div>
-        </div>
       </body>
     </html>
   );
