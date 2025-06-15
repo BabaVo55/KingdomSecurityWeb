@@ -1,3 +1,29 @@
+// export const options = [
+//     {
+//         id:1,
+//         title: 'Security',
+//         photo: '/Security.png',
+//         description: '',
+//         class: ''
+//     },
+//     {
+//         id:2,
+//         title: 'Academy',
+//         photo: '',
+//         description: '',
+//         class: ''
+//     },
+//     {
+//         id:1,
+//         title: 'Cyber',
+//         photo: '',
+//         description: '',
+//         class: ''
+//     }
+
+// ]
+
+
 export const options = [
   {
     id: 1,
