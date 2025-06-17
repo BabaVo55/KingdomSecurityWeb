@@ -1,5 +1,6 @@
-// import React from 'react'
-// import Image from 'next/image'
+import React from 'react'
+import Image from 'next/image'
+
 // type Props = {data: {
 //     id: number,
 //     title: string,
@@ -21,8 +22,6 @@
 //   )
 // }
 
-import React from 'react'
-import Image from 'next/image'
 
 type OptionItem = {
   id: number,
