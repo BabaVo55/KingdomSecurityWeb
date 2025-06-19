@@ -2,62 +2,69 @@ export const options = [
   {
     id: 1,
     title: 'Security',
-    photo: '/Security.png',
+    photo: '/SecurityGuard.png',
     description: 'Protective services and more.',
     class: ''
   },
   {
     id: 2,
-    title: 'Academy',
-    photo: '/Academy.png',
-    description: 'Training programs and certifications.',
-    class: ''
+    title: 'Cyber',
+    photo: '/CyberSecurity.png',
+    description: 'Cybersecurity and digital defense.',
+    class: 2
   },
   {
     id: 3,
-    title: 'Cyber',
-    photo: '/Cyber.png',
-    description: 'Cybersecurity and digital defense.',
-    class: 2
-  }
+    title: 'Academy',
+    photo: '/SecurityEducation.png',
+    description: 'Training programs and certifications.',
+    class: ''
+  },
 ]
 
 export const icons = [
   {
     id:1,
     name:'home',
-    link: '/home.png',
+    img: '/home.png',
+    href: '/home'
   },
   {
     id:2,
     name:'profile',
-    link: '/user.png',
+    img: '/user.png',
+    href: 'profile'
   },
   {
     id:3,
     name:'guard',
-    link: '/guard.png',
+    img: '/guard.png',
+    href: 'guard'
   },
   {
     id:4,
     name:'booking',
-    link: '/booking.png',
+    img: '/booking.png',
+    href: 'booking'
   },
   {
     id:5,
     name:'cyber',
-    link: '/cyber.png',
+    img: '/cyber.png',
+    href: 'cyber'
   },
   {
     id:6,
     name:'info',
-    link: '/info.png',
+    img: '/info.png',
+    href: 'info'
   },
   {
     id:7,
     name:'settings',
-    link: '/setting.png',
-  },
+    img: '/setting.png',
+    href: 'settings'
+  }
 ]
 
 //--------------------
