@@ -4,7 +4,7 @@ import {options} from '@/app/lib/data'
 
 export default function page() {
   return (
-    <div className='border rounded  p-2 '>
+    <div className=' rounded p-2 '>
       <Options data={options} />
     </div>
   )

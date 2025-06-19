@@ -22,7 +22,43 @@ export const options = [
   }
 ]
 
-
+export const icons = [
+  {
+    id:1,
+    name:'home',
+    link: '/home.png',
+  },
+  {
+    id:2,
+    name:'profile',
+    link: '/user.png',
+  },
+  {
+    id:3,
+    name:'guard',
+    link: '/guard.png',
+  },
+  {
+    id:4,
+    name:'booking',
+    link: '/booking.png',
+  },
+  {
+    id:5,
+    name:'cyber',
+    link: '/cyber.png',
+  },
+  {
+    id:6,
+    name:'info',
+    link: '/info.png',
+  },
+  {
+    id:7,
+    name:'settings',
+    link: '/setting.png',
+  },
+]
 
 //--------------------
 
