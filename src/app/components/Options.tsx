@@ -7,7 +7,7 @@ type Props = {data: {
     photo: string,
     description: string,
     class: string
-}}
+}[]}
 
 
 
